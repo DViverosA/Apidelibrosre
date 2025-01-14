@@ -72,7 +72,6 @@ namespace Apidelibros.Controllers
                 _context.editoriales.Remove(Editorialquebusco);
                 _context.SaveChanges();
                 return Ok();
-
             }
             catch (Exception ex)
             {
